@@ -1,0 +1,19 @@
+<archetype>
+  <id>spring-webmvc-jpa</id>
+  <sources>
+    <source>src/main/java/web/Index.java</source>
+    <source>src/main/java/entity/Message.java</source>
+    <source>src/main/java/repository/MessageRepository.java</source>
+  </sources>
+  <resources>
+    <resource>src/main/resources/logback.xml</resource>
+    <resource>src/main/resources/setting.properties</resource>
+    <resource>src/main/resources/messages_vi.properties</resource>
+	<resource>src/main/webapp/WEB-INF/spring-servlet.xml</resource>
+	<resource>src/main/webapp/WEB-INF/web.xml</resource>
+	<resource>src/main/webapp/WEB-INF/resources/style.css</resource>
+	<resource>src/main/webapp/WEB-INF/resources/script.js</resource>
+	<resource>src/main/webapp/WEB-INF/views/index.jsp</resource>
+  </resources>
+ 
+</archetype>
