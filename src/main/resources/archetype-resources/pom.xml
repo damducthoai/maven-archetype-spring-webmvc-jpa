@@ -14,10 +14,11 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <spring.framework.version>4.3.10.RELEASE</spring.framework.version>
         <jackson.databind.version>2.8.9</jackson.databind.version>
-        <org.jackson.version>20170516</org.jackson.version>
+        <org.json.version>20170516</org.json.version>
         <spring.data.jpa.version>1.11.6.RELEASE</spring.data.jpa.version>
         <mysql.connector.version>6.0.6</mysql.connector.version>
         <junit.version>3.8.1</junit.version>
+		<hibernate.version>5.2.10.Final</hibernate.version>
     </properties>
 
     <dependencies>
@@ -81,7 +82,7 @@
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
-            <version>${org.jackson.version}</version>
+            <version>${org.json.version}</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
@@ -106,7 +107,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>5.2.10.Final</version>
+            <version>${hibernate.version}</version>
         </dependency>
 
         <dependency>
